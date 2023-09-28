@@ -1,0 +1,102 @@
+/* Global-style */
+body {
+  font-family: "Poppins", sans-serif;
+  /* ini biar ga scroll kanan kiri */
+  overflow-x: hidden;
+}
+.navbar-top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-top li {
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+/* SLICK */
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  background: #dedede;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+/* SECTION-HERO */
+.section-hero .caption {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-hero .caption .btn {
+  align-self: flex-start;
+}
+
+.section-hero .banner {
+  margin-right: -200px;
+}
+
+.section-hero .banner img {
+  width: 90%;
+}
+
+/* SECTION CLIENT */
+.section-client {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-client .caption-client {
+  padding-right: 30px;
+}
+.section-client .logo-client-grid .logo-item {
+  padding: 20px;
+}
+
+.section-client .logo-client-grid .logo-item img {
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .section-hero .banner {
+    margin-right: 0px;
+    margin-top: 30px;
+  }
+
+  .section-hero .banner img {
+    width: 100%;
+  }
+
+  .section-hero .caption {
+    padding-top: 50px;
+  }
+}
